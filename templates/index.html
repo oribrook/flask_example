@@ -1,0 +1,15 @@
+<html lang="en">
+<head>    
+    <title>flask template</title>
+</head>
+<body>
+    <p> Teacher is: {{ name }} <br/> From: {{address }}</p>
+
+    {%for s in students%}
+    
+        <p>{{s}}</p>
+
+    {%endfor%}
+
+</body>
+</html>
